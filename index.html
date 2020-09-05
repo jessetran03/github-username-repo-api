@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repo API</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+        <h1>GitHub Repo API</h1>
+        <form>
+            <h2>Enter GitHub Username to generate list of Repos</h2>
+            <input type="text" id="js-handle-search" autofocus>
+            <input type="submit" value="Submit">
+        </form>
+
+        <div class="results hidden">
+            <h3>List of repos:</h3>
+            <ul></ul>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
